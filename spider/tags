@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Spaider	neihan_spider.py	/^class Spaider:$/;"	c
+__init__	neihan_spider.py	/^    def __init__(self):$/;"	m	class:Spaider
+begin_page	tieba_spider.py	/^    begin_page = int (raw_input("请输入起始页码"))$/;"	v
+caoliu_text	spider2.py	/^caoliu_text  = response.read()$/;"	v
+doWork	neihan_spider.py	/^    def doWork(self):$/;"	m	class:Spaider
+end_page	tieba_spider.py	/^    end_page = int (raw_input("请输入终止页码"))$/;"	v
+header	spider2.py	/^header= {"User-Agent": user_agent}$/;"	v
+html_text	spider.py	/^html_text = response.read()$/;"	v
+load_page	tieba_spider.py	/^def load_page(url):$/;"	f
+project_opened	.ropeproject/config.py	/^def project_opened(project):$/;"	f
+request	spider2.py	/^request = urllib2.Request(url,headers=header)$/;"	v
+response	spider.py	/^response = urllib2.urlopen("http:\/\/www.baidu.com")$/;"	v
+response	spider2.py	/^response = urllib2.urlopen(request)$/;"	v
+set_prefs	.ropeproject/config.py	/^def set_prefs(prefs):$/;"	f
+sp	neihan_spider.py	/^    sp = Spaider()$/;"	v	class:Spaider
+spider_one_page	neihan_spider.py	/^    def spider_one_page(self):$/;"	m	class:Spaider
+tieba_spider	tieba_spider.py	/^def tieba_spider(begin_page,end_page):$/;"	f
+url	spider2.py	/^url = "http:\/\/www.dota2.com"$/;"	v
+user_agent	spider2.py	/^user_agent="Mozilla\/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko\/20100101 Firefox\/34.0"$/;"	v
+write_file	tieba_spider.py	/^def write_file(filename,text):$/;"	f
