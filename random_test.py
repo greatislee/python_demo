@@ -12,7 +12,7 @@ def getSubKey():
 
 def getKey():
     #  key =[]
-    #  f;r i in range(4):
+    #  for i in range(4):
         #  key.append(getSubKey())
 
     #  return "-".join(key)
@@ -23,4 +23,4 @@ def getSomeKey(num):
 
 
 if __name__ == "__main__":
-    print getSomeKey(4)
+    print getSomeKey(3)
